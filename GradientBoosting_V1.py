@@ -16,9 +16,9 @@ import numpy as np
 
 
 DEFAULTS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_2973.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_plus_1729.csv",
+    "/data/loto7_4702_k82.csv",
+    "/data/loto7_4702_k82_loto_2973.csv",
+    "/data/loto7_4702_k82_loto_plus_1729.csv",
 )
 
 WINDOW = 96
@@ -813,7 +813,7 @@ Deterministicki boosting celih kombinacija; bez random generisanja.
 Nema rucnih filtera oblika kombinacije; samo pravila 7/39.
 
 
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82.csv
+/data/loto7_4702_k82.csv
 Redova: 4702; poslednja: 8,10,13,21,22,23,32
 Validacija (24, 0.08): 0.8542
 Validacija (40, 0.08): 1.0625
@@ -824,12 +824,12 @@ Kontrola: prethodno izvuceno kolo: 1.1719
 Razlika: +0.0312; razlicitih predikcija: 63/64
 Distribucija pogodaka 0..7: [15, 22, 26, 1, 0, 0, 0, 0]
 Ponavljanja istorijske kombinacije u testu: 0
-NEXT red 4703: 6,7,8,14,18,20,38
+NEXT red 4703: 6,x,8,y,18,z,38
 NEXT vec postoji u istoriji: False
 
 
 
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_2973.csv
+/data/loto7_4702_k82_loto_2973.csv
 Redova: 2973; poslednja: 1,2,8,26,29,35,39
 Validacija (24, 0.08): 1.1875
 Validacija (40, 0.08): 1.0625
@@ -840,13 +840,13 @@ Kontrola: prethodno izvuceno kolo: 1.3281
 Razlika: -0.0312; razlicitih predikcija: 56/64
 Distribucija pogodaka 0..7: [13, 26, 18, 7, 0, 0, 0, 0]
 Ponavljanja istorijske kombinacije u testu: 0
-NEXT red 2974: 7,14,17,24,32,33,39
+NEXT red 2974: 7,x,17,y,32,z,39
 NEXT vec postoji u istoriji: False
 Test nije pokazao bolji prosek od kontrole.
 
 
 
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_plus_1729.csv
+/data/loto7_4702_k82_loto_plus_1729.csv
 Redova: 1729; poslednja: 8,10,13,21,22,23,32
 Validacija (24, 0.08): 1.1042
 Validacija (40, 0.08): 1.2500
@@ -857,7 +857,7 @@ Kontrola: prethodno izvuceno kolo: 1.2656
 Razlika: -0.0312; razlicitih predikcija: 47/64
 Distribucija pogodaka 0..7: [15, 25, 18, 6, 0, 0, 0, 0]
 Ponavljanja istorijske kombinacije u testu: 7
-NEXT red 1730: 3,4,11,12,13,17,18
+NEXT red 1730: 3,x,11,y,13,z,18
 NEXT vec postoji u istoriji: False
 Test nije pokazao bolji prosek od kontrole.
 """
